@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Tracker App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <p class="badge">Coming Soon</p>
+      <h1>Job Tracker App</h1>
+      <p class="subtitle">Yakında hizmete girecek 🚀</p>
+
+      <p class="desc">
+        İş başvurularını tek ekrandan takip edeceğin bir uygulama. Başvuru durumu,
+        notlar, tarih ve şirket bilgilerini düzenleyip filtreleyebileceksin.
+      </p>
+
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/vedatcakmak-cell/job-tracker" target="_blank" rel="noreferrer">
+          GitHub Repo
+        </a>
+        <a class="btn" href="mailto:vedadcakmak655@gmail.com">
+          İletişim
+        </a>
+      </div>
+
+      <p class="foot">
+        © <span id="y"></span> Vedad Çakmak
+      </p>
+    </main>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
